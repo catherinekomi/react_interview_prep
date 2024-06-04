@@ -8,6 +8,7 @@ import ToDoList from './components/ToDoList';
 import UseStateTextChallenge from './components/UseStateTextChallenge';
 import Timer from './components/Timer';
 import BlogApplication from './components/BlogApplication';
+import ProductList from './components/ProductList';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
             <li>
               <Link to='/blog-application'>Blog Application</Link>
             </li>
+            <li>
+              <Link to='/product-list'>Product List</Link>
+            </li>
           </ul>
         </nav>
         <Routes>
@@ -50,6 +54,7 @@ function App() {
           />
           <Route path='/timer' element={<Timer />} />
           <Route path='/blog-application' element={<BlogApplication />} />
+          <Route path='/product-list' element={<ProductList />} />
           <Route path='/' />
         </Routes>
       </div>

@@ -29,12 +29,11 @@ Delete contacts.
 Search for contacts by name.
 Form validation (e.g., validate email format).
 
-6. E-commerce Product List
+6. Done. E-commerce Product List
    Skills Covered: state management, and filterable list.
 
 Description: Build an e-commerce product list that fetches products from an API and allows users to filter and sort the products.
 Features:
-Fetch product data from an API.
 Display a list of products.
 Filter products by category, price, etc.
 Sort products by price, rating, etc.
